@@ -1,0 +1,34 @@
+{% extends 'base.html' %}
+
+{% block title %}Lista de Tarefas{% endblock %}
+
+{% block content %}
+<div class="offset-1 col-10 list-div">
+    <h1>Lista de Tarefas</h1>
+    <a id="add-link" href="newtask/">
+        <div class="col-2 add-div">
+            <i class="fas fa-plus"></i> Adicionar tarefa
+        </div>
+    </a>
+    <div class="col-9 search-div">
+        <input class="form-control" type="text" id="search" name="search" placeholder="Digite o nome da tarefa para buscar...">
+        <i class="fas fa-search"></i>
+    </div>
+    {% if messages %}
+    <ul class="messages">
+        {% for message in messages %}
+        <li{% if message.tags %} class="alert alert-{{ message.tags }}"{% endif %}>{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    <ul class="task-list">
+        {% for task in tasks %}
+        <li class="task-item">
+            <span><a href="/task/{{task.id}}">{{task.title}}</a></span>
+            <a href="delete/{{task.id}}"><span><i class="fas fa-trash"></i></span></a>
+            <a href="edit/{{task.id}}"><span><i class="fas fa-edit"></i></span></a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}
