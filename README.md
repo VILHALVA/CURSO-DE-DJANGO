@@ -2,6 +2,7 @@
 👨‍⚖️DJANGO É UM FRAMEWORK DE DESENVOLVIMENTO WEB EM PYTHON QUE FACILITA A CRIAÇÃO DE APLICATIVOS WEB DE ALTA QUALIDADE.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
+[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=DJANGO)
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://docs.djangoproject.com/en/4.2/) <br>
 
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&si=G4YKIOWKFgpP6PM2)
