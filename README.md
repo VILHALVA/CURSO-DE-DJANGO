@@ -2,15 +2,9 @@
 👨‍⚖️DJANGO É UM FRAMEWORK DE DESENVOLVIMENTO WEB EM PYTHON QUE FACILITA A CRIAÇÃO DE APLICATIVOS WEB DE ALTA QUALIDADE.
 
 [![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA%20OS-VIDEOS-03A9F4?logo=youtube)](https://www.youtube.com/@vilhalva100/search?query=DJANGO)
 [![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://docs.djangoproject.com/en/4.2/) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-PYTHON) <br>
-
+[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-PYTHON) 
 [![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&si=G4YKIOWKFgpP6PM2)
-
-<img src="https://conteige.cloud/wp-content/uploads/2021/07/logo-django.png" align="center" width="280"> <br>
-
-![](https://i.imgur.com/waxVImv.png)
 
 # CONCEITO:
 Django é um framework de desenvolvimento web em Python amplamente utilizado para criar aplicativos web robustos e escaláveis. Aqui estão alguns conceitos iniciais e exemplos de código para você começar:
