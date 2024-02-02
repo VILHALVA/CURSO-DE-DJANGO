@@ -1,12 +1,9 @@
 # CURSO DE DJANGO
 👨‍⚖️DJANGO É UM FRAMEWORK DE DESENVOLVIMENTO WEB EM PYTHON QUE FACILITA A CRIAÇÃO DE APLICATIVOS WEB DE ALTA QUALIDADE.
 
-[![GitHub Repo stars](https://img.shields.io/badge/VILHALVA-GITHUB-03A9F4?logo=github)](https://github.com/VILHALVA) 
-[![GitHub Repo stars](https://img.shields.io/badge/VEJA-DOCUMENTAÇÃO-03A9F4?logo=google)](https://docs.djangoproject.com/en/4.2/) 
-[![GitHub Repo stars](https://img.shields.io/badge/LINGUAGEM%20DE-PROGRAMAÇÃO-03A9F4?logo=github)](https://github.com/VILHALVA/CURSO-DE-PYTHON) 
-[![GitHub Repo stars](https://img.shields.io/badge/-PLAYLIST%20DO%20YOUTUBE-blueviolet)](https://youtube.com/playlist?list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&si=G4YKIOWKFgpP6PM2)
+<img src="FOTO.png" align="center" width="400"> <br>
 
-# CONCEITO:
+## CONCEITO:
 Django é um framework de desenvolvimento web em Python amplamente utilizado para criar aplicativos web robustos e escaláveis. Aqui estão alguns conceitos iniciais e exemplos de código para você começar:
 
 1. **Configuração Inicial:**
@@ -111,8 +108,8 @@ Django é um framework de desenvolvimento web em Python amplamente utilizado par
     </html>
     ```
 
-# CARACTERISTICAS:
-## Características Positivas:
+## CARACTERISTICAS:
+### POSITIVAS:
 1. **Produtividade Elevada:** O Django promove uma abordagem de desenvolvimento rápido e eficiente. Ele fornece uma grande quantidade de funcionalidades prontas, como um sistema de administração, sistema de autenticação e muito mais, economizando tempo na implementação de recursos comuns.
 
 2. **Segurança Integrada:** Django coloca grande ênfase na segurança. Ele inclui proteções contra ameaças comuns, como injeção de SQL e ataques CSRF. Além disso, atualizações de segurança são frequentes.
@@ -125,7 +122,7 @@ Django é um framework de desenvolvimento web em Python amplamente utilizado par
 
 6. **Sistema de Templates:** O sistema de templates do Django permite criar páginas HTML dinâmicas e reutilizáveis, tornando a construção de interfaces de usuário mais fácil.
 
-## Características Negativas:
+### NEGATIVAS:
 1. **Curva de Aprendizado Inicial:** Para iniciantes, o Django pode ter uma curva de aprendizado acentuada, especialmente para aqueles que não estão familiarizados com os conceitos de desenvolvimento web e Python.
 
 2. **Complexidade em Projetos Grandes:** À medida que os projetos crescem, a estrutura do Django pode se tornar complexa e difícil de gerenciar. Isso pode exigir uma boa organização e planejamento.
@@ -135,4 +132,10 @@ Django é um framework de desenvolvimento web em Python amplamente utilizado par
 4. **Requer Conhecimento em Python:** Para usar o Django efetivamente, é necessário ter conhecimento em Python, o que pode ser uma desvantagem se você preferir ou já estiver familiarizado com outras linguagens.
 
 5. **Alto Uso de Recursos em Alguns Casos:** Em projetos muito grandes ou com alta demanda de tráfego, o Django pode consumir mais recursos do que algumas alternativas mais leves, o que pode requerer otimização adicional.
+
+## SUBSIDIOS:
+- [CURSO CRIADO PELO "MATHEUS BATTISTI - HORA DE CODAR"](https://youtube.com/playlist?list=PLnDvRpP8BnewqnMzRnBT5LeTpld5bMvsj&si=G4YKIOWKFgpP6PM2)
+- [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
+- [VEJA A DOCUMENTAÇÃO](https://docs.djangoproject.com/en/4.2/)
+- [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PYTHON)
 
