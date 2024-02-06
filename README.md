@@ -3,7 +3,7 @@
 
 <img src="FOTO.png" align="center" width="400"> <br>
 
-## CONCEITO:
+## CONCEITO E MAIS:
 Django é um framework de desenvolvimento web em Python amplamente utilizado para criar aplicativos web robustos e escaláveis. Aqui estão alguns conceitos iniciais e exemplos de código para você começar:
 
 1. **Configuração Inicial:**
@@ -29,21 +29,7 @@ Django é um framework de desenvolvimento web em Python amplamente utilizado par
    python manage.py startapp nome_do_aplicativo
    ```
 
-4. **Modelos:**
-   Os modelos no Django definem a estrutura do banco de dados. Aqui está um exemplo de um modelo para uma lista de tarefas:
-
-   ```python
-   from django.db import models
-
-   class Tarefa(models.Model):
-       titulo = models.CharField(max_length=200)
-       concluida = models.BooleanField(default=False)
-
-       def __str__(self):
-           return self.titulo
-   ```
-
-5. **Migrações:**
+4. **Migrações:**
    Após definir os modelos, você precisa criar migrações para criar ou alterar as tabelas no banco de dados:
 
    ```bash
@@ -51,62 +37,38 @@ Django é um framework de desenvolvimento web em Python amplamente utilizado par
    python manage.py migrate
    ```
 
-6. **Administração:**
-   O Django inclui um painel de administração que facilita a gestão dos dados do aplicativo. Para usar o admin, registre seus modelos no arquivo `admin.py` do seu aplicativo:
+## SUA HISTÓRIA:
+1. **Origens no World Company (2003-2005)**:
+   - O Django foi criado por Adrian Holovaty e Simon Willison enquanto trabalhavam para o jornal Lawrence Journal-World em Lawrence, Kansas, EUA.
+   - Em 2003, eles começaram a desenvolver um sistema de gerenciamento de conteúdo interno para as necessidades do jornal, e esse sistema eventualmente se transformou no Django.
 
-   ```python
-   from django.contrib import admin
-   from .models import Tarefa
+2. **Lançamento Público (Julho de 2005)**:
+   - O Django foi lançado publicamente em julho de 2005 como um projeto de código aberto.
+   - O lançamento público atraiu a atenção da comunidade de desenvolvedores, que ficou impressionada com suas capacidades e simplicidade de uso.
 
-   admin.site.register(Tarefa)
-   ```
+3. **Filosofia do Django**:
+   - O Django foi desenvolvido com base em uma filosofia de "desenvolvimento rápido, pragmático e limpo".
+   - Ele adota práticas como o princípio "Don't Repeat Yourself" (DRY) e o uso de "convenções sobre configurações" para minimizar a repetição de código e facilitar o desenvolvimento e a manutenção de aplicativos.
 
-7. **Views e URLs:**
-   As views processam solicitações do cliente e retornam respostas. Você define as URLs que correspondem a essas views no arquivo `urls.py`:
+4. **Rápida Adoção (2006-2008)**:
+   - O Django rapidamente ganhou popularidade entre os desenvolvedores web devido à sua documentação detalhada, recursos poderosos e foco na produtividade.
+   - Muitas empresas e organizações começaram a adotar o Django para o desenvolvimento de seus sites e aplicativos web.
 
-   ```python
-   from django.urls import path
-   from . import views
+5. **Lançamentos e Evolução**:
+   - O Django lançou várias versões desde o seu lançamento inicial, cada uma trazendo novos recursos, melhorias de desempenho e correções de bugs.
+   - Algumas versões notáveis incluem o lançamento da versão 1.0 em 2008 e a adoção de versões de lançamento regulares a cada poucos meses.
 
-   urlpatterns = [
-       path('tarefas/', views.lista_tarefas, name='lista_tarefas'),
-   ]
-   ```
+6. **Comunidade Ativa**:
+   - O Django tem uma comunidade de desenvolvedores ativa e acolhedora, que contribui com código, documentação e suporte técnico.
+   - A comunidade organiza conferências, encontros locais e mantém fóruns de discussão online para ajudar os desenvolvedores a aprender, colaborar e resolver problemas.
 
-8. **Templates:**
-   Os templates permitem que você crie a aparência de suas páginas web. Você pode usar a linguagem de modelo do Django para criar templates dinâmicos.
+7. **Adoção Global**:
+   - O Django é usado por milhares de empresas e organizações em todo o mundo para desenvolver uma ampla gama de aplicativos web, desde sites simples até plataformas complexas e de alto tráfego.
+   - Grandes empresas como Instagram, Pinterest, Disqus e Eventbrite confiam no Django para suas necessidades de desenvolvimento web.
 
-9. **Controladores (Views):**
-   As views controlam a lógica do aplicativo e renderizam os templates. Aqui está um exemplo de uma view que renderiza uma lista de tarefas:
-
-   ```python
-   from django.shortcuts import render
-   from .models import Tarefa
-
-   def lista_tarefas(request):
-       tarefas = Tarefa.objects.all()
-       return render(request, 'lista_tarefas.html', {'tarefas': tarefas})
-   ```
-
-10. **Templates HTML:**
-    Você pode criar templates HTML para exibir os dados em suas páginas. Aqui está um exemplo simples:
-
-    ```html
-    <!DOCTYPE html>
-    <html>
-    <head>
-        <title>Lista de Tarefas</title>
-    </head>
-    <body>
-        <h1>Minha Lista de Tarefas</h1>
-        <ul>
-            {% for tarefa in tarefas %}
-                <li>{{ tarefa.titulo }}</li>
-            {% endfor %}
-        </ul>
-    </body>
-    </html>
-    ```
+8. **Evolução Contínua**:
+   - O Django continua a evoluir e se adaptar às necessidades em constante mudança dos desenvolvedores e da indústria de tecnologia.
+   - A equipe de desenvolvimento está comprometida em manter o Django relevante, seguro e eficiente para as gerações futuras de desenvolvedores.
 
 ## CARACTERISTICAS:
 ### POSITIVAS:
@@ -138,4 +100,4 @@ Django é um framework de desenvolvimento web em Python amplamente utilizado par
 - [CURSO FEITO PELO VILHALVA](https://github.com/VILHALVA)
 - [VEJA A DOCUMENTAÇÃO](https://docs.djangoproject.com/en/4.2/)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PYTHON)
-
+- [VEJA A SINTAXE](./SINTAXE.md)
