@@ -1,4 +1,39 @@
 # SINTAXE
+## CRIANDO PROJETO:
+Aqui estão alguns passos iniciais para você começar:
+
+1. **Configuração Inicial:**
+   Para começar a usar o Django, você primeiro precisa instalá-lo. Use o pip para fazer isso:
+
+   ```bash
+   pip install django
+   ```
+
+2. **Criando um Projeto:**
+   No Django, um projeto é a estrutura global do seu aplicativo web. Para criar um projeto, use o comando `django-admin`:
+
+   ```bash
+   django-admin startproject nome_do_projeto
+   ```
+
+   Isso criará um diretório com o nome do projeto contendo a estrutura inicial.
+
+3. **Criando um Aplicativo:**
+   Em Django, um projeto pode conter vários aplicativos. Cada aplicativo é uma parte independente do projeto. Para criar um aplicativo, use o seguinte comando:
+
+   ```bash
+   python manage.py startapp nome_do_aplicativo
+   ```
+
+4. **Migrações:**
+   Após definir os modelos, você precisa criar migrações para criar ou alterar as tabelas no banco de dados:
+
+   ```bash
+   python manage.py makemigrations
+   python manage.py migrate
+   ```
+
+## EXEMPLOS DE CÓDIGOS:
 1. **Modelos:**
    Os modelos no Django definem a estrutura do banco de dados. Aqui está um exemplo de um modelo para uma lista de tarefas:
 

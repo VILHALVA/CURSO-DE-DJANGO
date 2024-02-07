@@ -3,39 +3,20 @@
 
 <img src="FOTO.png" align="center" width="400"> <br>
 
-## CONCEITO E MAIS:
-Django é um framework de desenvolvimento web em Python amplamente utilizado para criar aplicativos web robustos e escaláveis. Aqui estão alguns conceitos iniciais e exemplos de código para você começar:
+## CONCEITO:
+Django é um framework de desenvolvimento web em Python que facilita a criação de aplicativos web robustos e escaláveis. Foi desenvolvido para permitir que os desenvolvedores construam rapidamente sites e aplicativos web, seguindo o princípio do "Don't Repeat Yourself" (DRY) e o conceito de "batteries-included", o que significa que muitas funcionalidades comuns já estão incluídas no framework.
 
-1. **Configuração Inicial:**
-   Para começar a usar o Django, você primeiro precisa instalá-lo. Use o pip para fazer isso:
+1. **Design baseado em MVC (Model-View-Controller)**: Django segue o padrão de design MVC, embora utilize uma variação chamada MTV (Model-Template-View). Nesse padrão, o modelo (Model) representa os dados, o template (Template) lida com a apresentação visual e a view (View) controla a lógica da aplicação.
 
-   ```bash
-   pip install django
-   ```
+2. **ORM (Object-Relational Mapping)**: Django possui um ORM embutido que mapeia objetos Python para tabelas de banco de dados, permitindo que os desenvolvedores interajam com o banco de dados usando Python puro, em vez de SQL.
 
-2. **Criando um Projeto:**
-   No Django, um projeto é a estrutura global do seu aplicativo web. Para criar um projeto, use o comando `django-admin`:
+3. **Administração automática**: O Django oferece uma interface de administração automática que pode ser personalizada e estendida para gerenciar os modelos de dados do aplicativo sem a necessidade de escrever código adicional.
 
-   ```bash
-   django-admin startproject nome_do_projeto
-   ```
+4. **URLs amigáveis**: O framework facilita a configuração de URLs amigáveis e legíveis, tornando a navegação no site mais intuitiva.
 
-   Isso criará um diretório com o nome do projeto contendo a estrutura inicial.
+5. **Segurança**: Django possui recursos de segurança embutidos para ajudar a proteger contra vulnerabilidades comuns da web, como injeção de SQL, CSRF (Cross-Site Request Forgery) e XSS (Cross-Site Scripting).
 
-3. **Criando um Aplicativo:**
-   Em Django, um projeto pode conter vários aplicativos. Cada aplicativo é uma parte independente do projeto. Para criar um aplicativo, use o seguinte comando:
-
-   ```bash
-   python manage.py startapp nome_do_aplicativo
-   ```
-
-4. **Migrações:**
-   Após definir os modelos, você precisa criar migrações para criar ou alterar as tabelas no banco de dados:
-
-   ```bash
-   python manage.py makemigrations
-   python manage.py migrate
-   ```
+6. **Escalabilidade**: Django é altamente escalável e é usado por grandes empresas em aplicativos de alta demanda. Ele suporta o uso de cache, balanceamento de carga e distribuição de tarefas para lidar com o aumento do tráfego.
 
 ## SUA HISTÓRIA:
 1. **Origens no World Company (2003-2005)**:
