@@ -82,3 +82,4 @@ Django é um framework de desenvolvimento web em Python que facilita a criação
 - [VEJA A DOCUMENTAÇÃO](https://docs.djangoproject.com/en/4.2/)
 - [LINGUAGEM DE PROGRAMAÇÃO](https://github.com/VILHALVA/CURSO-DE-PYTHON)
 - [VEJA A SINTAXE](./SINTAXE.md)
+- [VEJA OS PROJETOS](https://github.com/VILHALVA?tab=repositories&q=topic:DJANGO)
