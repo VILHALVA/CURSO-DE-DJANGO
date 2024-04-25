@@ -20,10 +20,10 @@
      ```bash
      pip install django
      ```
-
+     
      ```bash
-    pip install django-admin
-    ```
+     pip install django-admin
+     ```
 
    Isso instalará a versão mais recente do Django em seu sistema.
 
