@@ -1,36 +1,4 @@
 # MANUAL
-## CRIANDO UM AMBIENTE VIRTUAL (OPCIONAL):
-1. **Crie o ambiente virtual:**
-   Você pode instalar o `virtualenv` usando o `pip`, que é o gerenciador de pacotes do Python.
-
-   Para instalar o `virtualenv`, você pode executar o seguinte comando:
-
-   ```
-   pip install virtualenv
-   ```
-
-   Depois de instalar o `virtualenv`, você pode criar um novo ambiente virtual com o seguinte comando:
-
-   ```
-   virtualenv venv
-   ```
-
-   Se quiser, você pode substituir "venv" pelo nome que você deseja dar ao seu ambiente virtual (Não se esqueça de atualizar o `.gitignore`). Em seguida, você pode ativar o ambiente virtual com os seguintes comandos:
-
-   - No Windows:
-
-   ```
-   venv\Scripts\activate
-   ```
-
-   - No Linux/Mac:
-
-   ```
-   source venv/bin/activate
-   ```
-
-   Uma vez ativado o ambiente virtual, você pode tentar instalar os pacotes necessários usando o `pip`, e eles serão instalados apenas no escopo do ambiente virtual, evitando possíveis conflitos com outros pacotes no seu sistema.
-
 ## INSTALAÇÃO:
 1. **Instalar o Python:**
    - Vá para o site [oficial do Python](https://www.python.org/).
@@ -105,35 +73,6 @@
    Isso iniciará o servidor na porta 8080.
 
    Após executar o comando, você verá mensagens no terminal indicando que o servidor está sendo iniciado. Assim que o servidor estiver pronto, você poderá acessar seu aplicativo Django no navegador digitando o endereço `http://localhost:8000` (ou a porta que você especificou) na barra de endereço.
-
-## SOBRE O `.gitignore`:
-   O arquivo `.gitignore` é usado para especificar quais arquivos e diretórios o Git deve ignorar ao rastrear alterações em um projeto. Aqui estão alguns padrões comuns que você pode incluir no seu arquivo `.gitignore` ao trabalhar com projetos Django:
-
-   ```
-   migrations
-   .pyc
-   __pycache__
-   .sqlite3
-   .env
-   venv/
-   env/
-   local_settings.py  
-   log/
-   media/
-   staticfiles/
-   ```
-
-   Esses são apenas exemplos e você pode personalizar o `.gitignore` conforme necessário para o seu projeto específico. Certifique-se de incluir quaisquer arquivos ou diretórios que não devem ser versionados pelo Git, como arquivos de banco de dados, arquivos de configuração locais, diretórios de ambiente virtual, etc.
-
-   Após criar ou atualizar seu arquivo `.gitignore`, certifique-se de adicioná-lo ao seu repositório Git para garantir que as exclusões sejam aplicadas corretamente:
-
-   ```bash
-   git add .gitignore
-   git commit -m "Adicionado arquivo .gitignore"
-   git push
-   ```
-
-   Isso garantirá que o Git ignore os arquivos e diretórios especificados no `.gitignore` ao rastrear alterações no seu projeto.
 
 ## SOBRE OS REQUIREMENTOS:
 1. **Criando o requirements.txt:**
